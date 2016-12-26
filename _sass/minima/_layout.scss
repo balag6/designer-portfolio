@@ -95,6 +95,27 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  color: #fff;
+  background: $grey-color-dark;
+  padding: 2em 0;
+}
+
+
+.footer-content{
+  float: left;
+  width: 40%;
+  font-size: 0.87em;
+
+  h3{
+    text-align: left;
+  }
+}
+.footer-social{
+  float: right;
+  li{
+    display: inline-block;
+    margin: 0 0.5em;
+  }
 }
 
 .footer-heading {
